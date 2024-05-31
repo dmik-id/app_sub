@@ -8,7 +8,7 @@
     return(
         
        
-        <div className={'top-0 left-0'} >
+        <div className={'top-0 left-0 '} >
              <h1 className="text-3xl font-bold underline text-zinc-500">
       Hello world!
     </h1> 
