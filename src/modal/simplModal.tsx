@@ -12,8 +12,8 @@ interface IModalProps{
 export const SimpleModal:React.FC<IModalProps >=({active,setActive,children})=>{
 
     return(
-        <div className={!active?'modal':'modal-active'}>
-        <div className={!active?'modal-content':'content-active'}>
+        <div className={!active?'modal':'modal opacity-100 pointer-events-auto'}>
+        <div className={!active?'modal-content':'modal-content scale-100'}>
            <button className={'block-modal'}
            onClick={()=>setActive(false)}>
             <div >
