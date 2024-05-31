@@ -8,28 +8,28 @@
 
     return(
         
-       <>
-        <main className="main" >
-            <section className="section">
-            <h1 className="text-3xl font-bold underline text-zinc-500">
+       
+        <div  >
+            {/* <h1 className="text-3xl font-bold underline text-zinc-500">
       Hello world!
-    </h1>
-
-                <button className="modal-show-btn" 
+    </h1> */}
+             
+             <button className='open-modal-btn'
                 onClick={()=>setActivModal(true)}
-                >Open modal window</button>
+                ><div >{!activeModal?'OPEN':''}</div></button>
 
              <SimpleModal active={activeModal} 
              setActive={setActivModal}>
-                <h2>Modal Info</h2>
-                <p className={'bg-slate-500'}>dadadaddaddadaddd</p>
+
+                {/* <h2 className={'block-modal card'}>Modal Info</h2>
+                <p className={'bg-slate-500'}>dadadaddaddadaddd</p> */}
              </SimpleModal>
-             
-         </section>
-    </main>
+
+
+    </div>
     
  
-        </>
+        
     )
 }
 export default Root

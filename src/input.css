@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 .layout{
+    
     background-color: aqua;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
+}
+@layer components{
+    .card{
+        @apply text-red-50 rounded-lg p-[15px] border-2;
+    }
+    .block{
+        @apply rounded-full border-2 border-white/50 text-center;
+    }
+
+    
+    
 }

@@ -7,7 +7,15 @@ export default {
   ],
   // content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors(theme){
+        return {
+          primary:{
+            DEFAULT: 'hsl(277, 100%, 50%)'
+          }
+        }
+      }
+    },
   },
   plugins: [],
 }

@@ -1,31 +1,31 @@
 export const Tomovies:React.FC=()=>{
     return(
-        <div className={'bg-purple-300'}>
-            <section className={'bg-slate-500 text-red-50 rounded-md p-[15px]'}>
-                BLOCK N 1
+        <div className={'grid gap-4'} >
+            <section className={'bg-slate-500/50  card '}>
+               <div className={'block'}>BLOCK N 1</div> 
                 fsfstf pkmouioubg ertggr 
                 edrgththrthjjtjjkj   j iii fd ujk ik
                 qqqqqqqqqqppppppppppp  ppppppppppppp
                 
 
             </section>
-            <section>
-                BLOCK N2
+            <section className={' bg-primary card'}>
+               <div className={'block'}> BLOCK N2</div>
                 fsfstf pkmouioubg ertggr 
                 edrgththrthjjtjjkj   j iii fd ujk ik
                 qqqqqqqqqqppppppppppp  ppppppppppppp</section>
-            <section>
-                BLOCK N3
+            <section className={' bg-slate-400 text-black p-[15px] rounded-lg'}>
+                <div className={'block'}>BLOCK N3</div>
                 fsfstf pkmouioubg ertggr 
                 edrgththrthjjtjjkj   j iii fd ujk ik
                 qqqqqqqqqqppppppppppp  ppppppppppppp</section>
-            <section>
-                BLOCK N4
+            <section className={'bg-primary/70 card'}>
+                <div className={'block'}>BLOCK N4</div>
                 fsfstf pkmouioubg ertggr 
                 edrgththrthjjtjjkj   j iii fd ujk ik
                 qqqqqqqqqqppppppppppp  ppppppppppppp</section>
-            <section>
-                BLOCK N5
+            <section className={'card bg-primary/50'}>
+                <div className={'block'}>BLOCK N5</div>
                 fsfstf pkmouioubg ertggr 
                 edrgththrthjjtjjkj   j iii fd ujk ik
                 qqqqqqqqqqppppppppppp  ppppppppppppp</section>
